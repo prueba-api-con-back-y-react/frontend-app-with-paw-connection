@@ -1,8 +1,10 @@
-# To Use it followw this steps:
+# To Use it follow this steps:
 
 1) clone this repo
 2) npm install
 3) nmp start
+
+## IGNORE ANDROID FOLDER
 
 # Getting Started with Create React App
 
