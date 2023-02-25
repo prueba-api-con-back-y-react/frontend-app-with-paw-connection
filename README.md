@@ -2,7 +2,7 @@
 
 1) clone this repo
 2) npm install
-3) nmp start
+3) npm start
 
 ## IGNORE ANDROID FOLDER
 
