@@ -35,4 +35,6 @@ jobs:
       - name: Setup Database
         run: "npm run"
       - name: Run Tests
-        run: "npm run test"
+        run: |
+          "npm i"
+          "npm run test"
