@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import ReactHTMLTableToExcel from "html-to-excel-react";
 
 export default function Home() {
   const [users, setUsers] = useState([]);
@@ -18,6 +19,16 @@ export default function Home() {
   return (
     <div className="container">
       <div className="py-4">
+
+        <ReactHTMLTableToExcel
+          id="test-table-xls-button"
+          className="download-table-xls-button"
+          table="table-to-xls"
+          filename="tablexls"
+          sheet="tablexls"
+          buttonText="Download as XLS"
+        />
+        <hr></hr>
         <table className="table border shadow" id="table-to-xls">
           <thead>
             <tr>
