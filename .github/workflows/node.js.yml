@@ -33,6 +33,6 @@ jobs:
       - name: Install packages
         run: "npm ci"
       - name: Setup Database
-        run: "npm run migrations"
+        run: "npm run"
       - name: Run Tests
         run: "npm run test"
